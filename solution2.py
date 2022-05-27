@@ -13,5 +13,4 @@ for i in range(len(user_string)):
         print(user_string[i])
 ###################################
 user_string = input("Please enter a string  ")
-for i in user_string:
-    print(user_string[::2])
+print(user_string[::2])
